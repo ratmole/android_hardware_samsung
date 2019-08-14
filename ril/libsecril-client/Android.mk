@@ -26,4 +26,7 @@ endif
 LOCAL_MODULE:= libsecril-client
 LOCAL_PRELINK_MODULE := false
 
+LOCAL_CFLAGS += -Wno-unused-variable
+LOCAL_CFLAGS += -Wno-unused-function
+
 include $(BUILD_SHARED_LIBRARY)

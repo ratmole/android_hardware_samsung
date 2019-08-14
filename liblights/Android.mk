@@ -42,6 +42,8 @@ LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_PROPRIETARY_MODULE := true
 
+LOCAL_CFLAGS += -Wno-unused-variable
+
 include $(BUILD_SHARED_LIBRARY)
 
 endif
